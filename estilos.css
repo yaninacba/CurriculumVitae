@@ -1,0 +1,46 @@
+
+body{
+    background-color:darkgray;
+}
+#inicio{
+    
+}
+nav{
+    background-color: tomato;
+}
+h1{
+    color:chocolate;
+    font-style:unset;
+}
+h2{
+    color:chocolate;
+    font-style:italic;
+    
+}
+#selfie{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 150px ; height: 200px ;
+        padding-block: 50 ;
+      }
+p{
+    text-align: center;
+    font-weight: 500;
+}
+button{
+    color:black;
+    font-size: large;
+    font-weight: 600;
+    border: none;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    text-align: center;
+    padding: 30 px 20 px;
+
+}
+footer{
+    text-align: center;
+    font-size: small;
+}
