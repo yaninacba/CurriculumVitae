@@ -1,6 +1,6 @@
 
 body{
-    background-color:darkgray;
+    background-color:#708090;
 }
 #inicio{
     
@@ -9,11 +9,11 @@ nav{
     background-color: #8A2BE2;
 }
 h1{
-    color:chocolate;
+    color:#8A2BE2;
     font-style:unset;
 }
 h2{
-    color:chocolate;
+    color:#8A2BE2;
     font-style:italic;
     
 }
