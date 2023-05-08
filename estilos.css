@@ -6,7 +6,7 @@ body{
     
 }
 nav{
-    background-color:#9FC1CC;
+    background-color:#5C8BA2;
 }
 h1{
     color:black;
@@ -29,7 +29,7 @@ p{
     font-weight: 500;
 }
 button{
-    color:white;
+    color:black;
     font-size: large;
     font-weight: 600;
     border: none;
