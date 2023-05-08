@@ -10,11 +10,11 @@ nav{
 }
 h1{
     color:black;
-    font-style:unset;
+    font-style:courier;
 }
 h2{
-    color:#8A2BE2;
-    font-style:italic;
+    color:black;
+    font-style:courier;
     
 }
 #selfie{
