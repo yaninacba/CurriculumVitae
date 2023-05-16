@@ -41,6 +41,10 @@ button{
     padding: 30 px 20 px;
 
 }
+.togle {
+
+    display:none;
+}
 footer{
     text-align: center;
     font-size: small;
