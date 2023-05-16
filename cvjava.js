@@ -1,6 +1,4 @@
 
-
-element.addEvenListener('click', ()=> {
-  document.getElementById('texto1').classList.toggle('togle');
-});
-
+function activayDesactiva() {
+  document.getElementById("texto3").classList.toggle("togle");
+}
