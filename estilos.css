@@ -42,10 +42,10 @@ button{
 
 }
 
-.toggle {
-
-    display:none;
+.show{
+   display:none;
 }
+
 footer{
     text-align: center;
     font-size: small;
