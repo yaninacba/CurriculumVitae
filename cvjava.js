@@ -1,6 +1,6 @@
 
 
 element.addEvenListener('click', ()=> {
-  document.getElementById('texto1').classList.toggle(''togle);
+  document.getElementById('texto1').classList.toggle('togle');
 });
 
