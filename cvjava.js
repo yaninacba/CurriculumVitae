@@ -1,6 +1,6 @@
 
 function activayDesactiva() {
-  document.getElementById("texto3").classList.toggle("toggle");
+  document.getElementById("texto1").classList.toggle("toggle");
 }
 
-document.getElementById("texto3").onclick = function() {activayDesactiva()};
+document.getElementById("contacto").onclick = function() {activayDesactiva()};
