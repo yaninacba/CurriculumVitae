@@ -29,6 +29,10 @@ p{
     text-align: center;
     font-weight: 500;
 }
+
+#texto3{
+    display:none;
+}
 button{
     color:black;
     font-size: large;
