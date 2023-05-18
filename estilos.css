@@ -2,9 +2,9 @@
 body{
     background-color:#2F7B95;
 }
-#inicio{
-    
-}
+
+
+
 nav{
     background-color:#5C8BA2;
 }
@@ -45,10 +45,13 @@ button{
 }
 
 .show{
-   display:none;
+   display:block;
 }
 
 footer{
     text-align: center;
     font-size: small;
+}
+#texto3{
+   display:none;
 }
