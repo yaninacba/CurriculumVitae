@@ -6,7 +6,7 @@ function activayDesactiva2() {
   document.getElementById("texto2").classList.toggle("show");
 }
 function activayDesactiva3() {
-  document.getElementById("texto3").classList.toggle("show");
+  document.getElementById("texto3").style.display="block";
 }
 
 document.getElementById("laboral").onclick = function() {activayDesactiva1()};
