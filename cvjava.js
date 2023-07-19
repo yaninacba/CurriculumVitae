@@ -1,14 +1,19 @@
+const lab=document.getElementById("laboral");
+const est=document.getElementById("estudios");
+const cont=document.getElementById("contacto");
 
-function activayDesactiva1() {
-  document.getElementById("texto1").style.display="block";
-}
-function activayDesactiva2() {
-  document.getElementById("texto2").style.display="block";
-}
-function activayDesactiva3() {
-  document.getElementById("texto3").style.display="block";
-}
+ cont.addEventListener("click", () => toggleVisibility("texto3"));
+ est.addEventListener("click", () => toggleVisibility("texto2"));
+ lab..addEventListener("click", () => toggleVisibility("texto1"))
 
-document.getElementById("laboral").onclick = function() {activayDesactiva1()};
-document.getElementById("estudios").onclick = function() {activayDesactiva2()};
-document.getElementById("contacto").onclick = function() {activayDesactiva3()};
+function activayDesactiva() {
+   const elemento = document.getElementById(IdElemento);
+    if (elemento.style.display === "none") {
+      elemento.style.display = "block"; // Si está oculto, lo muestra
+    } else {
+      elemento.style.display = "none"; // Si está visible, lo oculta
+    }
+  }
+});
+
+
