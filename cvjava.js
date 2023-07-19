@@ -1,3 +1,5 @@
+document.addEventListener("DOMContentLoaded", function () {
+
 const lab=document.getElementById("laboral");
 const est=document.getElementById("estudios");
 const cont=document.getElementById("contacto");
@@ -6,8 +8,8 @@ const cont=document.getElementById("contacto");
  est.addEventListener("click", () => activayDesactiva("texto2"));
  lab..addEventListener("click", () =>activayDesactiva("texto1"))
 
-function activayDesactiva() {
-   const elemento = document.getElementById(IdElemento);
+function activayDesactiva(elementId) {
+   const elemento = document.getElementById(elementId);
     if (elemento.style.display === "none") {
       elemento.style.display = "block"; // Si está oculto, lo muestra
     } else {
