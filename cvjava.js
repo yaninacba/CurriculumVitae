@@ -6,7 +6,7 @@ const cont=document.getElementById("contacto");
 
  cont.addEventListener("click", () => toggleVisibility("texto3"));
  est.addEventListener("click", () => toggleVisibility("texto2"));
- lab..addEventListener("click", () =>toggleVisibility("texto1"))
+ lab.addEventListener("click", () =>toggleVisibility("texto1"))
 
 function toggleVisibility(elementId) {
     const element = document.getElementById(elementId);
