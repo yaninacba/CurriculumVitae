@@ -2,9 +2,9 @@ const lab=document.getElementById("laboral");
 const est=document.getElementById("estudios");
 const cont=document.getElementById("contacto");
 
- cont.addEventListener("click", () => toggleVisibility("texto3"));
- est.addEventListener("click", () => toggleVisibility("texto2"));
- lab..addEventListener("click", () => toggleVisibility("texto1"))
+ cont.addEventListener("click", () => activayDesactiva("texto3"));
+ est.addEventListener("click", () => activayDesactiva("texto2"));
+ lab..addEventListener("click", () =>activayDesactiva("texto1"))
 
 function activayDesactiva() {
    const elemento = document.getElementById(IdElemento);
