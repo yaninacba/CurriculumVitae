@@ -2,8 +2,8 @@
 
 hero{
     display: flex;
-    background-image: url("imginter.jpg");
     justify-content: center;
+    background-image: url("imginter.jpg");
     height: 400px;
     background-size: cover;
     background-position: center;
