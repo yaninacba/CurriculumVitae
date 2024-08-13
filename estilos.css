@@ -1,7 +1,5 @@
 
-body{
-    background-color: white;
-}
+
 hero{
     display: flex;
     background-image: url("imgn.jpg");
