@@ -4,11 +4,12 @@ body{
 }
 
 
-
+menu {
+    display: flex;
+}
 menu ul{
     padding: 0;
     margin: 0;
-    display:flex;
     background-color:#2F7B95;
 }
 menu li{
