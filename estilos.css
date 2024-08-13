@@ -2,16 +2,14 @@
 
 hero{
     display: flex;
-    background-image: url("imgn.jpg");
+    background-image: url("imginter.jpg");
     justify-content: center;
     height: 400px;
     background-size: cover;
     background-position: center;
 }
 
-#menu{
-    display: flex;
-}
+
 menu{
     justify-content:center;
 }
