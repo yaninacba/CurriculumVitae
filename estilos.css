@@ -4,7 +4,7 @@ body{
 }
 hero{
     display: flex;
-    background-image: url("imginter.jpg");
+    background-image: url("imgn.jpg");
     justify-content: center;
     height: 400px;
     background-size: cover;
