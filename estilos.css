@@ -5,7 +5,10 @@ body{
 
 
 
-nav{
+menu ul{
+    padding: 0;
+    margin: 0;
+    display:flex;
     background-color:#5C8BA2;
 }
 h1{
