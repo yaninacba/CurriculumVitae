@@ -10,6 +10,7 @@ menu ul{
     margin: 0;
     background-color:#2F7B95;
     display: flex;
+    justify-content:center;
 }
 menu li{
     padding: 0;
