@@ -1,6 +1,6 @@
 
 
-.hero{
+hero{
     display: flex;
     background-image: url("imginter.jpg");
     justify-content: center;
