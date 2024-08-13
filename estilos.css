@@ -8,7 +8,9 @@
     background-size: cover;
     background-position: center;
 }
-
+.container{
+    justify-content: center;
+}
 
 menu{
     display:flex;
