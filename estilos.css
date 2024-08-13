@@ -9,7 +9,11 @@ menu ul{
     padding: 0;
     margin: 0;
     display:flex;
-    background-color:#5C8BA2;
+    background-color:#2F7B95;
+}
+menu li{
+    padding: 0;
+    list-style: none;
 }
 h1{
     color:black;
