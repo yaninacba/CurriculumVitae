@@ -9,6 +9,9 @@ hero{
     background-position: center;
 }
 
+#menu{
+    display: flex;
+}
 menu{
     justify-content:center;
 }
