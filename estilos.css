@@ -1,5 +1,7 @@
 
-
+body{
+    background-color: white;
+}
 hero{
     display: flex;
     background-image: url("imginter.jpg");
@@ -23,12 +25,12 @@ menu li{
     list-style: none;
 }
 h1{
-    color:black;
+    color: white;
     font-style:Comic Sans;
     
 }
 h2{
-    color:black;
+    color: white;
     font-style:Arial;
     
 }
