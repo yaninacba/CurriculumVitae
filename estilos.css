@@ -1,8 +1,13 @@
 
-body{
-    background-color:#2F7B95;
-}
 
+.hero{
+    display: flex;
+    background-image: ("imginter.jpg");
+    justify-content: center;
+    height: 400px;
+    background-size: cover;
+    background-position: center;
+}
 
 menu{
     justify-content:center;
