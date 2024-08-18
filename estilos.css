@@ -10,8 +10,8 @@
 }
 .container{
     justify-content: center;
-    align-item:center;
-    display:flex-end;
+    align-item:flex-end;
+    
 }
 
 menu{
