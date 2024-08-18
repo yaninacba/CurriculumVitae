@@ -4,6 +4,7 @@
     display: flex;
      background-image: url("claro1.jpg");
     justify-content: center;
+    align-items:center;
     height: 400px;
     background-size: cover;
     background-position: center;
