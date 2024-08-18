@@ -4,13 +4,13 @@
     display: flex;
      background-image: url("claro1.jpg");
     justify-content: center;
-    align-item:center;
     height: 400px;
     background-size: cover;
     background-position: center;
 }
 .container{
     justify-content: center;
+    align-item:center;
 }
 
 menu{
