@@ -1,87 +1,83 @@
-
-
-.hero{
+.hero {
     display: flex;
-     background-image: url("claro1.jpg");
+    background-image: url("claro1.jpg");
     justify-content: center;
-    align-items:center;
+    align-items: center;
     height: 400px;
     background-size: cover;
     background-position: center;
 }
-.container{
+
+.container {
+    display: flex;
     justify-content: center;
-    align-items:flex-end;
-    
+    align-items: flex-end;
 }
 
-menu{
-    display:flex;
-    justify-content:center;
+menu {
+    display: flex;
+    justify-content: center;
+    background-color: #2F7B95; /* Color de fondo del menú */
+    padding: 10px; /* Espaciado del menú */
 }
-menu ul{
+
+menu ul {
+    list-style: none;
     padding: 0;
     margin: 0;
-    background-color:#2F7B95;
     display: flex;
 }
-menu li{
-    padding: 0;
-    list-style: none;
+
+menu li {
+    margin: 0 10px; /* Espacio entre los elementos del menú */
 }
-h1{
+
+button {
     color: black;
-    font-style:Comic Sans;
-    
+    font-size: large;
+    font-weight: 600;
+    border: none;
+    background-color: #fff; /* Color de fondo del botón */
+    padding: 10px 20px; /* Espaciado dentro del botón */
+    border-radius: 5px; /* Bordes redondeados para el botón */
+    cursor: pointer;
 }
-h2{
+
+button:hover {
+    background-color: #f0f0f0; /* Color de fondo al pasar el ratón */
+}
+
+h1 {
     color: black;
-    font-style:Arial;
-    
+    font-family: "Comic Sans MS", cursive, sans-serif; /* Fuente para el título */
 }
-#selfie{
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        width: 150px ; height: 200px ;
-        padding-block: 50 ;
-      }
-p{
+
+h2 {
+    color: black;
+    font-family: Arial, sans-serif; /* Fuente para el subtítulo */
+}
+
+#selfie {
+    display: block;
+    margin: 0 auto;
+    width: 150px;
+    height: 200px;
+    padding: 50px 0; /* Padding ajustado */
+}
+
+p {
     text-align: center;
     font-weight: 500;
 }
 
-
-button{
-    color:black;
-    font-size: large;
-    font-weight: 600;
-    border: none;
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
-    text-align: center;
-    padding: 30 px 20 px;
-
-}
-
-.show{
-   display:block;
-}
-
-footer{
+footer {
     text-align: center;
     font-size: small;
 }
-#texto3{
-   display:none;
-}
-#texto2{
 
-   display:none;
+#texto3,
+#texto2,
+#texto1 {
+    display: none; /* Ocultar los textos inicialmente */
+}
 
-}
-   
-#texto1{
-   display:none;
-}
