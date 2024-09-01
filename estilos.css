@@ -14,9 +14,10 @@
 }
 
 #selfie {
-    width: 400px;
-    height: 600px;
-    margin-left: auto; /* Empuja la imagen hacia la derecha */
+    width: 250px; /* Aumenta el ancho de la imagen */
+    height: auto; /* Ajusta la altura automáticamente para mantener la proporción */
+    margin-left: auto; /* Mantén la imagen alineada a la derecha */
+    margin-right: 0; /* Asegura que no haya margen a la derecha */
 }
 
 
