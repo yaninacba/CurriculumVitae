@@ -1,12 +1,18 @@
 .hero {
     display: flex;
-    justify-content: space-between; /* Asegura que el texto esté a la izquierda y la imagen a la derecha */
+    justify-content: space-between;
     align-items: center;
     background-image: url("claro1.jpg");
     height: 400px;
     background-size: cover;
     background-position: center;
-    padding: 0 20px; /* Añade un poco de padding lateral */
+    padding: 0 20px; /* Mantén un poco de padding lateral */
+}
+
+#selfie {
+    height: 100%; /* La imagen ocupará el 100% de la altura del contenedor .hero */
+    width: auto; /* Mantén la proporción de la imagen */
+    margin-left: auto; /* Empuja la imagen hacia la derecha */
 }
 
 .text-container {
@@ -62,12 +68,14 @@ button:hover {
 
 h1 {
     color: black;
-    font-family: "Comic Sans MS", cursive, sans-serif; /* Fuente para el título */
+    font-family: "Comic Sans MS", cursive, sans-serif; 
+    text-align:center;
 }
 
 h2 {
     color: black;
     font-family: Arial, sans-serif; /* Fuente para el subtítulo */
+    text-align:center;
 }
 
 
