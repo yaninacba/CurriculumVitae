@@ -1,12 +1,12 @@
 .hero {
     display: flex;
-    justify-content: space-between; /* Espacio entre el texto y la imagen */
-    align-items: center; /* Alinea verticalmente */
+    justify-content: space-between; 
+    align-items: center; 
     background-image: url("claro1.jpg");
     height: 400px; /* Altura del contenedor */
     background-size: cover;
     background-position: center;
-    padding: 0 20px; /* Espacio lateral */
+    padding: 0 20px; 
 }
 
 .text-container {
@@ -15,7 +15,7 @@
 }
 
 #selfie {
-    height: 100%; /* Altura igual al contenedor .hero */
+    height: 100%; /* 
     width: auto; /* Mantiene la proporción de la imagen */
     margin-left: auto; /* Alinea la imagen a la derecha */
 }
@@ -44,7 +44,7 @@ menu ul {
 }
 
 menu li {
-    margin: 0 10px; /* Espacio entre los elementos del menú */
+    margin: 0 10px; /*
 }
 
 button {
@@ -59,7 +59,7 @@ button {
 }
 
 button:hover {
-    background-color: #f0f0f0; /* Color de fondo al pasar el ratón */
+    background-color: #f0f0f0; /
 }
 
 h1 {
@@ -70,7 +70,7 @@ h1 {
 
 h2 {
     color: black;
-    font-family: Arial, sans-serif; /* Fuente para el subtítulo */
+    font-family: Arial, sans-serif; 
     text-align:center;
 }
 
