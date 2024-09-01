@@ -1,12 +1,24 @@
 .hero {
     display: flex;
-    background-image: url("claro1.jpg");
-    justify-content: center;
+    justify-content: space-between; /* Asegura que el texto esté a la izquierda y la imagen a la derecha */
     align-items: center;
+    background-image: url("claro1.jpg");
     height: 400px;
     background-size: cover;
     background-position: center;
+    padding: 0 20px; /* Añade un poco de padding lateral */
 }
+
+.text-container {
+    text-align: left; /* Asegura que el texto esté alineado a la izquierda */
+}
+
+#selfie {
+    width: 150px;
+    height: 200px;
+    margin-left: auto; /* Empuja la imagen hacia la derecha */
+}
+
 
 .container {
     display: flex;
@@ -57,13 +69,7 @@ h2 {
     font-family: Arial, sans-serif; /* Fuente para el subtítulo */
 }
 
-#selfie {
-    display: block;
-    margin: 0 auto;
-    width: 150px;
-    height: 200px;
-    padding: 50px 0; /* Padding ajustado */
-}
+
 
 p {
     text-align: center;
