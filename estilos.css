@@ -44,10 +44,11 @@ menu ul {
 }
 
 menu li {
-    margin: 0 10px; /*
+    margin: 0 10px; 
+
 }
 
-button {
+.button {
     color: black;
     font-size: large;
     font-weight: 600;
