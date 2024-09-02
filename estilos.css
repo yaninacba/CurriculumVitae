@@ -3,60 +3,54 @@
     justify-content: space-between; 
     align-items: center; 
     background-image: url("claro1.jpg");
-    height: 400px; /* Altura del contenedor */
+    height: 400px; 
     background-size: cover;
     background-position: center;
     padding: 0 20px; 
 }
 
 .text-container {
-    text-align: left; /* Texto alineado a la izquierda */
-    max-width: 50%; /* Ajusta el ancho máximo del contenedor de texto */
+    text-align: left;
+    max-width: 50%;
 }
 
 #selfie {
-    height: 70%; /* 
-    width: auto; /* Mantiene la proporción de la imagen */
-    margin-left: right; /* Alinea la imagen a la derecha */
+    height: 70%; 
+    width: auto; 
+    margin-left: auto; /* Alinea la imagen a la derecha */
 }
 
-
-
-
 .container {
-
-
     align-items: flex-end;
 }
 
-menu {
+nav {
     display: flex;
     justify-content: center;
-    background-color: #2F7B95; /* Color de fondo del menú */
+    background-color: #2F7B95;
     padding: 10px; 
-     z-index: 2;
+    z-index: 2;
 }
 
-menu ul {
+nav ul {
     list-style: none;
     padding: 0;
     margin: 0;
     display: flex;
 }
 
-menu li {
+nav li {
     margin: 0 10px; 
-
 }
 
-.button {
+button {
     color: black;
     font-size: large;
     font-weight: 600;
     border: none;
-    background-color: #fff; /* Color de fondo del botón */
-    padding: 10px 20px; /* Espaciado dentro del botón */
-    border-radius: 5px; /* Bordes redondeados para el botón */
+    background-color: #fff;
+    padding: 10px 20px; 
+    border-radius: 5px; 
     cursor: pointer;
 }
 
@@ -64,21 +58,18 @@ button:hover {
     background-color: white; 
 }
 
-h1 {
+h1, h3 {
     color: black;
-    font-family: "Comic Sans MS", cursive, sans-serif; 
-    align-items:center;
-    text-align:center;
+    text-align: center;
+}
+
+h1 {
+    font-family: "Comic Sans MS", cursive, sans-serif;
 }
 
 h3 {
-    color: black;
     font-family: Arial, sans-serif; 
-     align-items:center;
-    text-align:center;
 }
-
-
 
 p {
     color: white;
@@ -89,12 +80,5 @@ p {
 footer {
     text-align: center;
     font-size: small;
-}
-
-#texto4,
-#texto3,
-#texto2,
-#texto1 {
-    display: none; /* Ocultar los textos inicialmente */
 }
 
