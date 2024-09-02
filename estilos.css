@@ -1,7 +1,8 @@
 .hero {
     display: flex;
-    justify-content: space-between; 
-    align-items: center; 
+    flex-direction: column; /* Cambia la dirección del flex a columna */
+    align-items: center; /* Centra los elementos horizontalmente */
+    justify-content: center; /* Centra los elementos verticalmente */
     background-image: url("claro1.jpg");
     height: 400px; /* Altura del contenedor */
     background-size: cover;
@@ -10,17 +11,14 @@
 }
 
 .text-container {
-    text-align: left; /* Texto alineado a la izquierda */
-    max-width: 50%; /* Ajusta el ancho máximo del contenedor de texto */
+    text-align: center; /* Centra el texto */
+    margin-bottom: 20px; /* Espacio entre el texto y la imagen */
 }
 
 #selfie {
-    height: 70%; 
+    height: 70%;
     width: auto; 
-    margin-right: 20px; /* Agrega espacio entre la imagen y el texto */
-    order: -1; /* Mueve la imagen al principio dentro del contenedor flex */
 }
-
 
 
 
