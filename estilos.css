@@ -3,54 +3,60 @@
     justify-content: space-between; 
     align-items: center; 
     background-image: url("claro1.jpg");
-    height: 400px; 
+    height: 400px; /* Altura del contenedor */
     background-size: cover;
     background-position: center;
     padding: 0 20px; 
 }
 
 .text-container {
-    text-align: left;
-    max-width: 50%;
+    text-align: left; /* Texto alineado a la izquierda */
+    max-width: 50%; /* Ajusta el ancho máximo del contenedor de texto */
 }
 
 #selfie {
-    height: 70%; 
-    width: auto; 
-    margin-left: auto; /* Alinea la imagen a la derecha */
+    height: 70%; /* 
+    width: auto; /* Mantiene la proporción de la imagen */
+    margin-left: right; /* Alinea la imagen a la derecha */
 }
 
+
+
+
 .container {
+
+
     align-items: flex-end;
 }
 
-nav {
+menu {
     display: flex;
     justify-content: center;
-    background-color: #2F7B95;
+    background-color: #2F7B95; /* Color de fondo del menú */
     padding: 10px; 
-    z-index: 2;
+     z-index: 2;
 }
 
-nav ul {
+menu ul {
     list-style: none;
     padding: 0;
     margin: 0;
     display: flex;
 }
 
-nav li {
+menu li {
     margin: 0 10px; 
+
 }
 
-button {
+.button {
     color: black;
     font-size: large;
     font-weight: 600;
     border: none;
-    background-color: #fff;
-    padding: 10px 20px; 
-    border-radius: 5px; 
+    background-color: #fff; /* Color de fondo del botón */
+    padding: 10px 20px; /* Espaciado dentro del botón */
+    border-radius: 5px; /* Bordes redondeados para el botón */
     cursor: pointer;
 }
 
@@ -58,18 +64,21 @@ button:hover {
     background-color: white; 
 }
 
-h1, h3 {
-    color: black;
-    text-align: center;
-}
-
 h1 {
-    font-family: "Comic Sans MS", cursive, sans-serif;
+    color: black;
+    font-family: "Comic Sans MS", cursive, sans-serif; 
+    align-items:center;
+    text-align:center;
 }
 
 h3 {
+    color: black;
     font-family: Arial, sans-serif; 
+     align-items:center;
+    text-align:center;
 }
+
+
 
 p {
     color: white;
@@ -81,4 +90,12 @@ footer {
     text-align: center;
     font-size: small;
 }
+
+#texto4,
+#texto3,
+#texto2,
+#texto1 {
+    display: none; /* Ocultar los textos inicialmente */
+}
+
 
