@@ -15,7 +15,7 @@
 }
 
 #selfie {
-    height: 100%; /* 
+    height: 50%; /* 
     width: auto; /* Mantiene la proporción de la imagen */
     margin-left: auto; /* Alinea la imagen a la derecha */
 }
